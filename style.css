@@ -1,0 +1,36 @@
+div {
+    display: flex;
+    border: 5px solid #000000;
+    margin: 50px;
+}
+
+div img {
+    width: 300px;
+    height: 300px;
+}
+#one {
+    background-color: #2a7dd6;
+    justify-content: center;
+}
+
+#two {
+    background-color: #15c315;
+    justify-content: space-around
+}
+
+#three {
+    background-color: #ac2727;
+    justify-content: space-between;
+}
+
+#four {
+    background-color: #f4dd15;
+    justify-content: space-evenly;
+}
+
+#five {
+    background-color: #961892;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
